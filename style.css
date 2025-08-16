@@ -12,3 +12,29 @@
 body{
     font-family: "poppins", sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+P{
+    color: rgb(85,85,85)
+}
+
+/* TRANSITIONS */
+
+a,.btn{
+    transition: all 300ms ease;
+}
+
+/* DESKTOP NAV */
+
+nav,.nav-links{
+    display:flex
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height:17vh ;
+}
