@@ -156,3 +156,17 @@ section {
     box-sizing: border-box;
     max-height: fit-content;
 }
+
+.section-container{
+    display: flex;;
+}
+
+/* PROFILE SELECTION */
+
+#profile {
+    display:flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
