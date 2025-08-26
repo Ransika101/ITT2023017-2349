@@ -362,6 +362,7 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  transition: transform 0.35s cubic-bezier(0.4, 0.2, 0.2, 1), box-shadow 0.35s;
 }
 
 .project-img {
@@ -378,6 +379,15 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.color-container:hover {
+  transform: scale(1.05) translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.color-container:not(:hover) {
+  animation: drop 0.35s;
 }
 
 /* CONTACT */
