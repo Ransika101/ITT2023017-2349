@@ -37,9 +37,9 @@
   section {
     margin: 0 5%;
   }
-  .section__pic-container img{
-    width: 275px;
-    height: 275px;
+  .section__pic-container {
+    width: 375px;
+    height: 375px;
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -86,7 +86,7 @@
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container img{
+  .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
